@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: green;
+}
+
+.contact-wrapper {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid red;
+  background-color: white;
+}
+
+.container {
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.container h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.conatct-form input,
+textarea {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 5px 0px;
+}
+
+.contact-btn {
+  color: white;
+  font-size: 15px;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+}
